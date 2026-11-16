@@ -17,6 +17,16 @@
 		}
 	}
 
+	# Open Neo4j Browser with the right connect URL (Bolt over WebSocket + TLS
+	# on this domain), so deployers only type the password.
+	@browser_home {
+		method GET
+		path / /browser /browser/
+		header Accept *text/html*
+		expression `{query} == ""`
+	}
+	redir @browser_home /browser/?dbms=neo4j%2Bs://neo4j@{host}:443 302
+
 	# Bolt over WebSocket (used by Neo4j Browser and browser drivers).
 	@bolt {
 		header_regexp Connection (?i)upgrade
