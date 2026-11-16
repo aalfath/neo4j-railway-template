@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/neo4j-2?utm_medium=integration&utm_source=button&utm_campaign=neo4j)
+
 # Neo4j on Railway
 
 Railway template for [Neo4j](https://neo4j.com) Community Edition, the open-source graph database with the Cypher query language.

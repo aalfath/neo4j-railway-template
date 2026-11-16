@@ -2,6 +2,10 @@
 
 Deployers: read the entry for the version you're updating to before you apply an update. Breaking changes are listed first.
 
+## 2026.10.2-2 (2026-11-16)
+
+- README: Deploy on Railway button for the published template (`neo4j-2`). No change to the image or settings.
+
 ## 2026.10.2-1 (2026-11-16)
 
 - First release: Neo4j Community 2026.10.2 (`neo4j:2026.10.2-community@sha256:4a2fd4f41ce384aa7d6a74b399f22c202e154f3966119c28a18ed9a500904f5e`).
